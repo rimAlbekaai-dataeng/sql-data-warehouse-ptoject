@@ -1,29 +1,70 @@
-# SQL Data Warehouse Project
+# Data Warehouse and Analytics Project
 
-Building an end-to-end modern data warehouse using SQL Server, incorporating relational database design, ETL pipelines, dimensional modeling, and business analytics.
-
----
-
-## 📌 Project Overview
-This project demonstrates the design and implementation of an enterprise-grade SQL Data Warehouse. It processes raw transactional data through ETL stages, transforms it into an optimized star schema model, and prepares clean datasets for reporting and analytical querying.
+Welcome to the **Data Warehouse and Analytics Project** repository! 🚀
+This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
 ---
 
-## 🏗 Architecture & Data Pipeline
-1. **Source Data**: Extracting raw datasets from transactional databases / CSV sources.
-2. **Staging Layer**: Ingesting raw data into SQL Server staging tables with preliminary validation and cleaning.
-3. **Core Warehouse (Dimensions & Facts)**: Transforming data using Kimball dimensional modeling techniques (Star Schema).
-4. **Analytics & Views**: Creating optimized views, aggregated metrics, and reporting models for business insights.
+## 📖 Project Overview
+
+This project involves:
+
+1. **Data Architecture:** Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
+2. **ETL Pipelines:** Extracting, transforming, and loading data from source systems into the warehouse.
+3. **Data Modeling:** Developing fact and dimension tables optimized for analytical queries.
+4. **Analytics & Reporting:** Creating SQL-based reports and dashboards for actionable insights.
+
+🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
+
+* SQL Development
+* Data Architect
+* Data Engineering
+* ETL Pipeline Developer
+* Data Modeling
+* Data Analytics
 
 ---
 
-## 🛠 Tech Stack
-* **Database Engine**: Microsoft SQL Server
-* **Management Tool**: SQL Server Management Studio (SSMS)
-* **Modeling Method**: Star Schema (Fact & Dimension Tables)
+## 🛠️ Important Links & Tools:
 
----
+Everything is for Free!
 
+* **[Datasets](YOUR_LINK_HERE):** Access to the project dataset (csv files).
+* **[SQL Server Express](YOUR_LINK_HERE):** Lightweight server for hosting your SQL database.
+* **[SQL Server Management Studio (SSMS)](YOUR_LINK_HERE):** GUI for managing and interacting with databases.
+* **[Git Repository](YOUR_LINK_HERE):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
+* **[DrawIO](YOUR_LINK_HERE):** Design data architecture, models, flows, and diagrams.
+* **[Notion](YOUR_LINK_HERE):** All-in-one tool for project management and organization.
+* **[Notion Project Steps](YOUR_LINK_HERE):** Access to All Project Phases and Tasks.
+*
+
+# 🚀 Project Requirements
+
+## Building the Data Warehouse (Data Engineering)
+
+### Objective
+Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+
+### Specifications
+* **Data Sources:** Import data from two source systems (ERP and CRM) provided as CSV files.
+* **Data Quality:** Cleanse and resolve data quality issues prior to analysis.
+* **Integration:** Combine both sources into a single, user-friendly data model designed for analytical queries.
+* **Scope:** Focus on the latest dataset only; historization of data is not required.
+* **Documentation:** Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+  
+# BI: Analytics & Reporting (Data Analytics)
+
+### Objective
+
+Develop SQL-based analytics to deliver detailed insights into:
+
+- Customer Behavior
+- Product Performance
+- Sales Trends
+
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+
+For more details, refer to [docs/requirements.md](docs/requirements.md).
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -32,3 +73,22 @@ This project demonstrates the design and implementation of an enterprise-grade S
 1. Clone the repository:
    ```bash
    git clone [https://github.com/your-username/sql-data-warehouse-project.git](https://github.com/your-username/sql-data-warehouse-project.git)
+
+# Data Architecture
+
+The data architecture for this project follows Medallion Architecture **Bronze** , **Silver** , and **Gold** layers:
+<img width="1007" height="530" alt="image" src="https://github.com/user-attachments/assets/abedfcb1-6a0c-432d-a46d-c3f098de79b1" />
+
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+
+# 📁 Repository Structure
+<img width="983" height="557" alt="image" src="https://github.com/user-attachments/assets/73f42f7b-e37d-4608-90ea-8dcfa029752c" />
+
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+
+## 🌟 About Me
+Hi, there! I'm **Rim Siraj Albekaai** .I'm an LU University Student. Data Engineering-focused Computer Science student with hands-on experience building SQL Server data warehouses and Medallion Architecture pipelines. Eager to connect for entry-level roles, internships, and data project opportunities.
